@@ -1,0 +1,261 @@
+* {
+  margin:0;
+  padding: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+body {
+  text-align: center;
+  font-family:arial;
+  font-size:14px;
+}
+
+.wrapper {
+  margin: 0 auto;
+  width: 100%;
+  position: relative;
+  text-align: center;
+  max-height:1000px;
+}
+
+/*Navigation & header CSS*/
+nav {
+width: 100%;
+height: 30px;
+background-color: tan;
+text-align: center;
+}
+
+ul li {
+  list-style: none;
+  display: inline-block;
+  float:center;
+  line-height: 30px;
+}
+
+ul li a {
+  display: block;
+  font-size: 14px;
+  font-family: arial;
+  color: #1e1e1e;
+  padding: 0 20px;
+}
+
+ul li a:hover {
+  color: blue;
+}
+
+.logo {
+	font-family:garamond;
+	font-weight: bold;
+	font-size:38px;
+	color: tan;
+	position: relative;
+	}
+
+.header {
+  padding: 15px;
+  background-image: url("https://images.pexels.com/photos/4109751/pexels-photo-4109751.jpeg");
+}
+
+.nav{
+    border: 1px solid #ccc;
+    border-width:1px 0;
+    list-style:none;
+  	text-align:center;
+    font-family: arial;
+  	text-transform: uppercase;
+  	margin:0;
+    padding:0;
+  	background: tan;
+  	z-index: 9;
+}
+
+.nav li{
+    display:inline;
+}
+
+.nav a{
+    display:inline-block;
+    padding:10px;
+}
+
+.image-text-overlay-h1 {
+	position: absolute;
+	top: 40%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-family:garamond;
+	font-size:40px;
+	color: white;
+	font-weight: bold;
+	background: tan;
+	padding: 10px;
+	}
+
+/* Homepage and category banner text overlay */
+.image-text-overlay-body {
+	position: absolute;
+	top: 55%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-family:arial;
+	font-size:20px;
+	background: white;
+	padding: 10px;
+	}
+
+/* Homepage and category banner text overlay */
+@media screen and (max-width: 750px) {
+.image-text-overlay-body {
+    top: 80%;
+  }
+}
+
+.image-form-overlay {
+	position: absolute;
+	top: 70%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-family:arial;
+	font-size:16px;
+	background:tan;
+	padding: 10px;
+	}
+
+/* Product image & text grid CSS */
+.row {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  padding: 10px;
+}
+
+/* 2 up image text grid */
+.column-2-up {
+  -ms-flex: 50%;
+  flex: 50%;
+  max-width: 50%;
+
+}
+
+.column img {
+  margin-top: 8px;
+  width: 100%;
+
+
+}
+
+/* 2-up Responsive layout - makes a one column-layout instead of two columns */
+@media screen and (max-width: 600px) {
+.column-2-up {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+/* Create four equal columns that sit next to each other */
+.column {
+  -ms-flex: 25%;
+  flex: 25%;
+  max-width: 25%;
+  padding:  10px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+.column {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+.column {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+.button {
+	font-family:arial;
+	background-color: black;
+	border: none;
+	font-size: 14px;
+	padding: 5px 15px;
+	color: white;
+}
+
+.button {
+	font-family:arial;
+	background-color: black;
+	border: none;
+	font-size: 14px;
+	padding: 5px 15px;
+	color: white;
+
+}
+/*Text formatting*/
+.body-text {
+	text-align:left;
+	font-family:arial;
+	font-size:14px;
+	width: 95%;
+	margin: 50px;
+}
+
+a {
+	text-decoration: none;
+	color: red;
+}
+
+h1 {
+	text-align: center;
+	font-family:garamond;
+	font-size:35px;
+  color:tan;
+  padding:10px;
+	}
+
+h2 {
+	text-align: center;
+	font-family:garamond;
+	font-size:18px;
+}
+
+table{
+	font-family:arial;
+	font-size:14px;
+	width: 95%;
+	margin: 50px;
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+
+td, th {
+	text-align:center;
+	font-family: arial;
+	border: 1px solid black;
+	height: 50px;
+	padding: 15px;
+
+	}
+
+footer {
+  	width: 100%;
+  	background-color:tan;
+  	padding:50px;
+  	margin:0px;
+  	}
