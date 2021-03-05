@@ -138,7 +138,7 @@ ul li a:hover {
   -ms-flex: 50%;
   flex: 50%;
   max-width: 50%;
-  margin: 50px;
+  border-box: 25px solid white;
 
 }
 
