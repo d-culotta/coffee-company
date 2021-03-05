@@ -63,13 +63,13 @@ ul li a:hover {
     border: 1px solid #ccc;
     border-width:1px 0;
     list-style:none;
-  	text-align:center;
+    text-align:center;
     font-family: arial;
-  	text-transform: uppercase;
-  	margin:0;
+    text-transform: uppercase;
+    margin:0;
     padding:0;
-  	background: tan;
-  	z-index: 9;
+    background: tan;
+    z-index: 9;
 }
 
 .nav li{
@@ -138,14 +138,13 @@ ul li a:hover {
   -ms-flex: 50%;
   flex: 50%;
   max-width: 50%;
+  margin: 50px;
 
 }
 
 .column img {
   margin-top: 8px;
   width: 100%;
-
-
 }
 
 /* 2-up Responsive layout - makes a one column-layout instead of two columns */
