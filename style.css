@@ -138,8 +138,6 @@ ul li a:hover {
   -ms-flex: 50%;
   flex: 50%;
   max-width: 50%;
-  border-box: 25px solid white;
-
 }
 
 .column img {
