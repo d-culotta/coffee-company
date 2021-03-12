@@ -1,5 +1,5 @@
 * {
-  margin:0;
+  margin: 0;
   padding: 0;
   text-decoration: none;
   box-sizing: border-box;
@@ -7,8 +7,8 @@
 
 body {
   text-align: center;
-  font-family:arial;
-  font-size:14px;
+  font-family:verdana;
+  font-size:13px;
 }
 
 .wrapper {
@@ -16,14 +16,14 @@ body {
   width: 100%;
   position: relative;
   text-align: center;
-  max-height:1000px;
+  max-height: 1000px;
 }
 
 /*Navigation & header CSS*/
 nav {
 width: 100%;
-height: 30px;
-background-color: tan;
+height: 33px;
+background-color: #8a6348;
 text-align: center;
 }
 
@@ -31,77 +31,69 @@ ul li {
   list-style: none;
   display: inline-block;
   float:center;
-  line-height: 30px;
+  line-height: 35px;
 }
 
 ul li a {
   display: block;
-  font-size: 14px;
+  font-size: 13px;
   font-family: arial;
-  color: #1e1e1e;
-  padding: 0 20px;
+  color: white;
+  padding: 0 15px;
+  letter-spacing: .75px;
+  text-transform: uppercase;
 }
 
 ul li a:hover {
-  color: blue;
+  color: #e8ccba;
+  background-color: #61422e;
 }
 
 .logo {
-	font-family:garamond;
+	font-family: Garamond, serif;
 	font-weight: bold;
-	font-size:38px;
-	color: tan;
+	font-size: 35px;
+	color: #61422e;
 	position: relative;
 	}
 
 .header {
   padding: 15px;
-  background-image: url("");
-}
+  background-image: url();
+  background-color: #f1e8dc;
 
-.nav{
-    border: 1px solid #ccc;
-    border-width:1px 0;
-    list-style:none;
-    text-align:center;
-    font-family: arial;
-    text-transform: uppercase;
-    margin:0;
-    padding:0;
-    background: tan;
-    z-index: 9;
 }
 
 .nav li{
-    display:inline;
+    display: inline;
 }
 
 .nav a{
     display:inline-block;
-    padding:10px;
+    padding: 10px;
 }
 
 .image-text-overlay-h1 {
 	position: absolute;
-	top: 40%;
+	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
 	font-family:garamond;
-	font-size:40px;
+	font-size: 40px;
 	color: white;
 	font-weight: bold;
-	background: tan;
+	background: #8a6348;
 	padding: 10px;
 	}
 
 /* Homepage and category banner text overlay */
 .image-text-overlay-body {
 	position: absolute;
-	top: 55%;
+	top: 65%;
 	left: 50%;
 	transform: translate(-50%, -50%);
-	font-family:arial;
-	font-size:20px;
+	font-family:verdana;
+	font-size: 20px;
 	background: white;
 	padding: 10px;
 	}
@@ -115,10 +107,10 @@ ul li a:hover {
 
 .image-form-overlay {
 	position: absolute;
-	top: 70%;
+	top: 55%;
 	left: 50%;
 	transform: translate(-50%, -50%);
-	font-family:arial;
+	font-family:verdana;
 	font-size:16px;
 	background:tan;
 	padding: 10px;
@@ -131,6 +123,8 @@ ul li a:hover {
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
   padding: 10px;
+  margin-top: 25px;
+  margin-bottom: 25px;
 }
 
 /* 2 up image text grid */
@@ -159,7 +153,7 @@ ul li a:hover {
   -ms-flex: 25%;
   flex: 25%;
   max-width: 25%;
-  padding:  10px;
+  padding:  25px;
 }
 
 .column img {
@@ -187,72 +181,98 @@ ul li a:hover {
 }
 
 .button {
-	font-family:arial;
-	background-color: black;
+	font-family:verdana;
+	background-color: #654321;
 	border: none;
 	font-size: 14px;
-	padding: 5px 15px;
+	padding: 10px 15px;
 	color: white;
 }
 
-.button {
-	font-family:arial;
-	background-color: black;
-	border: none;
-	font-size: 14px;
-	padding: 5px 15px;
-	color: white;
-
-}
-/*Text formatting*/
 .body-text {
-	text-align:left;
-	font-family:arial;
-	font-size:14px;
+	text-align: left;
+	font-family: verdana;
+	font-size: 14px;
 	width: 95%;
 	margin: 50px;
 }
 
 a {
 	text-decoration: none;
-	color: red;
+	color: white;
 }
 
 h1 {
 	text-align: center;
-	font-family:garamond;
-	font-size:35px;
-  color:tan;
-  padding:10px;
+	font-family: garamond;
+	font-size: 35px;
+  color: tan;
+  padding: 10px;
 	}
 
 h2 {
 	text-align: center;
-	font-family:garamond;
-	font-size:18px;
+	font-family: verdana;
+  font-weight: bold;
+	font-size: 13px;
+  padding-top: 8px;
+  padding-bottom: 5px;
 }
 
 table{
-	font-family:arial;
-	font-size:14px;
+	font-family: verdana;
+	font-size: 14px;
 	width: 95%;
 	margin: 50px;
-	border: 1px solid black;
+	border: 1px solid #C6C6C6;
 	border-collapse: collapse;
 }
 
 td, th {
-	text-align:center;
-	font-family: arial;
-	border: 1px solid black;
+	text-align: center;
+	font-family: verdana;
+	border: 1px solid #C6C6C6;
 	height: 50px;
-	padding: 15px;
-
+	padding: 25px;
 	}
 
 footer {
   	width: 100%;
-  	background-color:tan;
-  	padding:50px;
-  	margin:0px;
+  	background-color: tan;
+  	padding: 50px;
+  	margin: 0px;
   	}
+
+#div1, #div2, #div3, #div4, #div5, #div6 {
+      float:left;
+      width: 200px;
+      height: 200px;
+      margin: 10px;
+      padding: 10px;
+      border: 1px solid black;
+      font-size: 100px;
+    }
+
+  #div1 {
+    background: #CEF1E3;
+  }
+
+  #div2 {
+    background: #F2DEE8;
+  }
+
+  #div3 {
+    background: #F4F8C9;
+  }
+
+  #div4 {
+    background: #EEE2CC;
+  }
+
+  #div5 {
+    background: #C9EDF8;
+  }
+
+  #div6 {
+    background: #E7D9F8;
+  }
