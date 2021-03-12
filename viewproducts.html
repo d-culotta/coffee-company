@@ -1,10 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-   <title>A Coffee Company Homepage</title>
+    <title>A Coffee Company Homepage</title>
       <meta charset="UTF-8">
-      <link rel="stylesheet" type="text/css" href="style.css">
-      
+      <link href="styles.css" rel="stylesheet">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <div class="header">
       		<a href="index.html" class="logo">A Coffee Company</a>
@@ -14,20 +13,28 @@
       <nav>
         <div class="wrapper">
           <ul>
-            <li><a href="viewproducts.html">View Products</a></li>
-            <li><a href="findproducts.html">Find Products in Store</a></li>
-            <li><a href="aboutus.html">About Us</a></li>
+            <li><a href="viewProducts.html">View Products</a></li>
+            <li><a href="findProducts.html">Find Products in Store</a></li>
+            <li><a href="aboutUs.html">About Us</a></li>
             <li><a href="contact.html">Contact</a></li>
           </ul>
         </div>
       </nav>
       <!--carosel slider banner-->
       <div class="wrapper">
-      	<img src="https://i.ibb.co/ZWQVTHd/pexels-chevanon-photography-302899-1-1.jpg" alt="pouring cup of coffee" style="width:100%;">
-        	<div class="image-text-overlay-h1">View Products</div>
+        <!--video Block-->
+        <section>
+        <video width="100%" autoplay muted>
+          <source src="Media/Coffee beans.mp4" type="video/mp4">
+          <source src="Media/Coffee beans.mp4" type="video/ogg">
+          Your browser does not support the video tag.
+        </video>
+      </section>
+        	<div class="image-text-overlay-h1" style="background: tan">View Products</div>
         	<div class="image-text-overlay-body"> The best coffee </div>
     	</div>
       <br>
+
       <section>
         <h1>Featured Products</h1>
           <p> Curabitur ultrices in urna id vestibulum. Pellentesque nisl ex,
@@ -37,28 +44,44 @@
             Pellentesque eget nulla euismod, convallis odio nec, malesuada metus.
             Pellentesque massa nisi, gravida in commodo efficitur, ornare at lacus.
           </p>
+
       <!--4 up Product Grid -->
       <div class="row">
       <div class="column">
-        <img src="https://images.pexels.com/photos/3976458/pexels-photo-3976458.jpeg" style="width:100%"> <h2> Product Name </h2> <p>$15.00</p>
-        <img src="https://images.pexels.com/photos/3976458/pexels-photo-3976458.jpeg"style="width:100%"> <h2> Product Name </h2> <p>$15.00</p>
+        <img src="Media/coffee beans in cup.jpeg" alt="Cup filled with coffee beans" style="width:100%"> <h2> Dark Roast, 1 pound</h2> <p>$12.00</p>
+        <img src="Media/latte with coffee beans.jpeg" alt="Latte on cutting board with coffee beans and flowers" style="width:100%"> <h2> Esspresso Beans, Half Pound </h2> <p>$10.00</p>
       </div>
 
       <div class="column">
-        <img src="https://images.pexels.com/photos/3976458/pexels-photo-3976458.jpeg" style="width:100%"> <h2> Product Name </h2> <p>$15.00</p>
-        <img src="https://images.pexels.com/photos/3976458/pexels-photo-3976458.jpeg" style="width:100%"> <h2> Product Name </h2> <p>$15.00</p>
+        <img src="Media/coffee cup with book.jpeg" alt="coffee cup with book and roses" style="width:100%"> <h2> Light Roast, one pound </h2> <p>$12.00</p>
+        <img src="Media/barista pouring latte.jpeg" alt="Barista in green apron pouring latte" style="width:100%"> <h2> Product Name </h2> <p>$15.00</p>
       </div>
 
       <div class="column">
-        <img src="https://images.pexels.com/photos/3976458/pexels-photo-3976458.jpeg" style="width:100%"> <h2> Product Name </h2> <p>$15.00</p>
-        <img src="https://images.pexels.com/photos/3976458/pexels-photo-3976458.jpeg" style="width:100%"> <h2> Product Name </h2> <p>$15.00</p>
+        <img src="Media/coffee shop 2.jpeg" style="width:100%"> <h2> Product Name </h2> <p>$15.00</p>
+        <img src="Media/latte with cookies.jpeg" alt="Latte with cookies and pinecones styled on a table"  style="width:100%"> <h2> Product Name </h2> <p>$15.00</p>
       </div>
 
       <div class="column">
-        <img src="https://images.pexels.com/photos/3976458/pexels-photo-3976458.jpeg" style="width:100%"> <h2> Product Name </h2> <p>$15.00</p>
-        <img src="https://images.pexels.com/photos/3976458/pexels-photo-3976458.jpeg" style="width:100%"> <h2> Product Name </h2> <p>$15.00</p>
+        <img src="Media/coffee shop 4.jpeg" style="width:100%"> <h2> Product Name </h2> <p>$15.00</p>
+        <img src="Media/tea with cookies.jpeg" alt="Tea with cookies and spices" style="width:100%"> <h2> Product Name </h2> <p>$15.00</p>
       </div>
     </div>
   </section>
 
-  </body> </html>
+  </body>
+  <footer>
+    <div class="wrapper">
+         <ul>
+            <li><a href="viewProducts.html" style="color: white";>View Products</a></li>
+            <li><a href="findProducts.html"style="color: white";>Find Products in Store</a></li>
+            <li><a href="aboutUs.html" style="color: white";>About Us</a></li>
+            <li><a href="contact.html"style="color: white";>Contact</a></li>
+         </ul>
+
+    </div>
+   <p>Site by Diane Culotta, for Hypermedia HCI Course
+
+         <a href="mailto:culotta@oswego.edu">Contact now</p>
+      </footer>
+</html>
