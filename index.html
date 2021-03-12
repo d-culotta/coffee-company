@@ -1,10 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-   <title>A Coffee Company Homepage</title>
+    <title>A Coffee Company Homepage</title>
       <meta charset="UTF-8">
-      <link rel="stylesheet" type="text/css" href="style.css">
-      
+      <link href="styles.css" rel="stylesheet">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <div class="header">
       		<a href="index.html" class="logo">A Coffee Company</a>
@@ -14,25 +13,55 @@
       <nav>
         <div class="wrapper">
           <ul>
-            <li><a href="viewproducts.html">View Products</a></li>
-            <li><a href="findproducts.html">Find Products in Store</a></li>
-            <li><a href="aboutus.html">About Us</a></li>
+            <li><a href="viewProducts.html">View Products</a></li>
+            <li><a href="findProducts.html">Find Products in Store</a></li>
+            <li><a href="aboutUs.html">About Us</a></li>
             <li><a href="contact.html">Contact</a></li>
           </ul>
         </div>
       </nav>
+      
       <!--carosel slider banner-->
       <div class="wrapper">
       	<img src="https://i.ibb.co/ZWQVTHd/pexels-chevanon-photography-302899-1-1.jpg" alt="pouring cup of coffee" style="width:100%;">
         	<div class="image-text-overlay-h1"> The best coffee </div>
-          	<div class="image-text-overlay-body">A subheadline</div>
+          	<div class="image-text-overlay-body">a subheadline </div>
     	</div>
-     
-        <!--2 up banner row 1-->
-      <section style="margin: 20px 75px";>
+
+  <!--SVG Block-->
+  <section style="background-color: #f1e8dc";>
+  <svg width="200" height="200">
+    <circle cx="100" cy="100" r="50"/>
+      <animate id="a1" attributeName="fill" from="tan" to="#8a6348" dur="3s" fill="freeze"/>
+      <text x="50%" y="50%" text-anchor="middle" fill="white" font-size="16px" font-family="Arial" dy=".3em">Organic</text>
+        </circle>
+  </svg>
+  <svg width="200" height="200">
+      <circle cx="100" cy="100" r="50"/>
+        <animate id="a1" attributeName="fill" from="tan" to="#8a6348" dur="6s" fill="freeze"/>
+         <text x="50%" y="50%" text-anchor="middle" fill="white" font-size="16px" font-family="Arial" dy=".3em">Non GMO</text>
+      </circle>
+  </svg>
+  <svg width="200" height="200">
+    <circle cx="100" cy="100" r="50"/>
+      <animate id="a1" attributeName="fill" from="tan" to="#8a6348" dur="9s" fill="freeze"/>
+      <text x="50%" y="50%" text-anchor="middle" fill="white" font-size="16px" font-family="Arial" dy=".3em">Fair Trade</text>
+      </circle>
+  </svg>
+
+  <svg width="200" height="200">
+    <circle cx="100" cy="100" r="50"/>
+      <animate id="a1" attributeName="fill" from="tan" to="#8a6348" dur="12s" fill="freeze"/>
+      <text x="50%" y="50%" text-anchor="middle" fill="white" font-size="16px" font-family="Arial" dy=".3em">Delicious</text>
+      </circle>
+  </svg>
+</section>
+
+      <!--2 up banner row 1-->
+      <section>
       <div class="row">
       <div class="column-2-up">
-        <img src="https://images.pexels.com/photos/3976458/pexels-photo-3976458.jpeg" style="width:100%">
+          <img src="Media/coffee cup with book.jpeg" alt="Coffee with Book" style="width:100%">
         </div>
 
       <div class="column-2-up">
@@ -56,14 +85,14 @@
       </div>
 
     <div class="column-2-up">
-      <img src="https://images.pexels.com/photos/3976458/pexels-photo-3976458.jpeg" style="width:100%">
+      <img src="Media/coffee beans in cup.jpeg" alt="Coffee beans in Cup" style="width:100%">
     </div>
     </div>
   </section>
     <hr>
 
       <!--4 up banner row 4-->
-        <section style="margin: 20px 50px";>
+        <section style="margin: 20px 75px";>
           <h1>Customer Favorite Products</h1>
             <p>
               Curabitur ultrices in urna id vestibulum. Pellentesque nisl ex,
@@ -75,26 +104,26 @@
             </p>
           <div class="row">
       		<div class="column">
-    		    <img src="https://images.pexels.com/photos/3976458/pexels-photo-3976458.jpeg" style="width:100%">
-    		      <h2>Product Name</h2>
+    		    <img src="Media/tea with cookies.jpeg" alt="Cup of tea with cookies" style="width:100%">
+    		      <h2>Loose Leaf Chai</h2>
     		        <p>In hac habitasse platea dictumst.Pellentesque eget nulla euismod, convallis odio nec, malesuada metus.</p>
           </div>
 
 		      <div class="column">
-      			<img src="https://images.pexels.com/photos/3219809/pexels-photo-3219809.jpeg" style="width:100%">
-      			   <h2>Product Name</h2>
+      			<img src="Media/coffee beans in cup.jpeg" alt="cup filled with coffee beans" style="width:100%">
+      			   <h2>Dark Roast Beans</h2>
       			      <p>In hac habitasse platea dictumst.Pellentesque eget nulla euismod, convallis odio nec, malesuada metus.</p>
           </div>
 
     		<div class="column">
-    			<img src="https://images.pexels.com/photos/3976458/pexels-photo-3976458.jpeg" style="width:100%">
-    			   <h2>Product Name</h2>
+    			<img src="Media/coffee cup with book.jpeg" alt="Coffee cup with flowers and book" style="width:100%">
+    			   <h2>Light Roast Beans</h2>
     			      <p>In hac habitasse platea dictumst.Pellentesque eget nulla euismod, convallis odio nec, malesuada metus.</p>
         </div>
 
     		<div class="column">
-    			<img src="https://images.pexels.com/photos/2074122/pexels-photo-2074122.jpeg" style="width:100%">
-    			   <h2>Product Name</h2>
+    			<img src="Media/latte with cookies.jpeg" alt="latte with cookies on top of a cutting board" style="width:100%">
+    			   <h2>Espresso Beans</h2>
     			      <p>In hac habitasse platea dictumst.Pellentesque eget nulla euismod, convallis odio nec, malesuada metus.</p></div>
     		</div>
       </section>
@@ -102,16 +131,16 @@
 
   <footer>
     <div class="wrapper">
-      <nav>
+
     	   <ul>
       		  <li><a href="viewProducts.html" style="color: white";>View Products</a></li>
       		  <li><a href="findProducts.html"style="color: white";>Find Products in Store</a></li>
       		  <li><a href="aboutUs.html" style="color: white";>About Us</a></li>
       		  <li><a href="contact.html"style="color: white";>Contact</a></li>
     		 </ul>
-    	</nav>
+
     </div>
-    	<p>Site by Diane Culotta, 2021
+    	<p>Site by Diane Culotta, for Hypermedia HCI Course
     	   <a href="mailto:culotta@oswego.edu">Contact now</p>
 	    </footer>
 </html>
