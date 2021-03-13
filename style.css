@@ -202,21 +202,22 @@ a {
 	color: white;
 }
 
-h1 {
+h1, h2 {
 	text-align: center;
 	font-family: garamond;
 	font-size: 35px;
-  color: tan;
-  padding: 10px;
+	color: tan;
+ 	padding: 10px;
 	}
 
-h2 {
+
+h3 {
 	text-align: center;
 	font-family: verdana;
-  font-weight: bold;
+ 	font-weight: bold;
 	font-size: 13px;
-  padding-top: 8px;
-  padding-bottom: 5px;
+  	padding-top: 8px;
+	padding-bottom: 5px;
 }
 
 table{
