@@ -107,7 +107,7 @@ ul li a:hover {
 
 .image-form-overlay {
 	position: absolute;
-	top: 55%;
+	top: 75%;
 	left: 50%;
 	transform: translate(-50%, -50%);
 	font-family:verdana;
