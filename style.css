@@ -89,7 +89,7 @@ ul li a:hover {
 /* Homepage and category banner text overlay */
 .image-text-overlay-body {
 	position: absolute;
-	top: 55%;
+	top: 65%;
 	left: 50%;
 	transform: translate(-50%, -50%);
 	font-family:verdana;
